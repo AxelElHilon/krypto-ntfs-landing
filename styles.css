@@ -199,6 +199,19 @@ body {
   color: #03002c;
 }
 
+.terciary-button {
+  background: transparent;
+  border: none;
+  color: #e87bf8;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 4px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.terciary-button:hover {
+  background-color: #da44f1;
+}
 .featured-section {
   background-color: #302a64;
   width: 100%;
@@ -469,7 +482,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.4rem;
-    width: 618px;
+    width: 780px;
     padding: 2rem 7.5rem;
     text-align: center;
     align-content: space-evenly;
